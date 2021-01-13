@@ -1,0 +1,292 @@
+#logo {
+    width: 25vw;
+    height: 122px;
+    overflow: hidden;
+    position: absolute;
+    left: 37vw;
+    top: 2vh;
+    border-radius: 42px;
+    background-color: rgba(0,0,0, 1);
+    z-index: 2;
+
+}
+#logoimage
+{
+    margin-top: -73px;
+    height: 300px;
+    margin-left: -56px;
+}
+
+#part1{
+    width: 70vw;
+    height: 800px;
+    background-image: url(Images/finesse-2.jpg);
+    background-size: 134%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -44vw;
+    top: 13vh;
+}
+#part2{
+    width: 46vw;
+    height:800px;
+    background-color: rgba(243, 226, 226,0.97);
+    overflow: hidden;
+    position: absolute;
+    left: 27vw;
+    top: 13vh;
+    z-index: 1;
+}
+#part3{
+    width: 62vw;
+    height: 800px;
+    background-image: url(Images/finesse-4.jpg);
+    background-size: 111%;
+    position: absolute;
+    top: 13vh;
+   right:0vw;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#join{
+    font-weight: 650;
+    text-align: center;
+    font-size: 165%;
+    padding-top: 6vw;
+    letter-spacing: 0.5em;
+}
+.details{
+    font-weight: 600;
+    position: relative;
+padding-left: 10%;
+}
+.textbox{
+    position: relative;
+    top: -2%;
+ width:61%;
+    margin-left: 22%;
+    border-top: hidden; 
+    border-left:hidden;
+    border-right: hidden;
+    background-color: rgba(243, 226, 226,0.97);
+}
+@media screen and (max-width:429px)
+{
+    #part1{
+        width: 70vw;
+        height: 800px;
+        background-image: url(Images/finesse-2.jpg);
+        background-size: 134%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -44vw;
+        top: 13vh;
+    }
+    #part2{
+        width: 90vw;
+    height: 637px;
+    background-color: rgba(243, 226, 226,0.97);
+    overflow: hidden;
+    position: absolute;
+    left: 5vw;
+    top: 13vh;
+    z-index: 1;
+    }
+    #part3{
+        width: 175vw;
+    height: 800px;
+    background-image: url(Images/finesse-2.jpg);
+    background-size: 126%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -75vw;
+    top: 13vh;
+    }
+    #join {
+    font-weight: 650;
+    text-align: center;
+    font-size: 165%;
+    padding-top: 23vw;
+    letter-spacing: 0.5em;
+}
+}
+@media screen and (min-width: 430px) and  (max-width:500px){
+    #logo {
+        width: 50vw;
+        height: 99px;
+        overflow: hidden;
+        position: absolute;
+        left: 26vw;
+        top: 2vh;
+        border-radius: 42px;
+        background-color: rgba(0,0,0, 1);
+        z-index: 2;
+    }
+    #logoimage
+    {
+        margin-top: -69px;
+        height: 256px;
+        margin-left: -63px;
+    }
+    #part1{
+        width: 70vw;
+        height: 800px;
+        background-image: url(Images/finesse-2.jpg);
+        background-size: 134%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -44vw;
+        top: 13vh;
+    }
+    #part2{
+        width: 90vw;
+    height: 637px;
+    background-color: rgba(243, 226, 226,0.97);
+    overflow: hidden;
+    position: absolute;
+    left: 5vw;
+    top: 13vh;
+    z-index: 1;
+    }
+    #part3{
+        width: 175vw;
+    height: 800px;
+    background-image: url(Images/finesse-2.jpg);
+    background-size: 126%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -75vw;
+    top: 13vh;
+    }
+    #join {
+    font-weight: 650;
+    text-align: center;
+    font-size: 165%;
+    padding-top: 23vw;
+    letter-spacing: 0.5em;
+}
+#join {
+    font-weight: 650;
+    text-align: center;
+    font-size: 165%;
+    padding-top: 23vw;
+    letter-spacing: 0.5em;
+}
+}
+@media screen and (min-width: 800px) and (max-width:899px){
+    #part1{
+        width: 89vw;
+        height: 800px;
+        background-size: 147%;
+        left: -72vw;
+        top: 13vh;
+    }
+    #part2{
+        width: 64vw;
+    height: 800px;
+    left:18vw;
+    }
+    #part3{
+        width: 73vw;
+        background-size: 136%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width:1049px)
+{
+    #part1{
+        height: 800px;
+        width: 83vw;
+        background-size: 139%;
+        left: -57vw;
+    }
+    #part2{
+        height: 800px;
+    }
+    #part3{
+        height: 800px;
+        width: 73vw;
+        background-size: 121%;
+    }
+}
+@media screen and (min-width: 1050px) and (max-width:1150px)
+{
+    #part1{
+        height: 800px;
+        width: 78vw;
+        background-size: 127%;
+        left: -52vw;
+    }
+    #part2{
+        height: 800px;
+    }
+    #part3{
+        height: 800px;
+        width: 73vw;
+        background-size: 104%;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width:1450px){
+
+    #part1{
+        height: 800px;
+        width: 75vw;
+        background-size: 116%;
+        left: -49vw;
+    }
+    #part2{
+        height: 800px;
+    }
+    #part3{
+        height: 800px;
+        background-size: 103%;
+    }
+}
+@media screen and (min-width: 1451px) and (max-width:1520px)
+{
+    #part1{
+        background-size: 86%;
+        height: 600px;
+        left: -31vw;
+    }
+    #part2{
+        height: 600px;
+    }
+    #part3{
+        width: 45vw;
+        background-size: 100%;
+        position: absolute;
+        right:0vw;
+    height: 600px;
+    }
+}
+@media screen and (min-width: 1621px) and (max-width: 1802px)
+{
+    #part1{
+        height: 1200px;
+    }
+    #part2{
+        height: 1200px;
+    }
+    #part3{
+        height: 1200px;
+        background-size: 120%;
+    }
+}
+@media screen and (min-width: 1802px) and (max-width:2034)
+{
+    #part1{
+        height: 60vh;
+    }
+    #part2{
+        height: 60vh;
+    }
+    #part3{
+        height: 60vh;
+        background-size: 120%;
+    }
+}

@@ -1,0 +1,55 @@
+#largecontainer{
+    position: absolute;
+    left: 0;
+    height: 500px;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+}
+#logocontainer{
+    height: 130px;
+    overflow: hidden;
+}
+#logoimage{
+    position: relative;
+    top: -31px;
+    left: 36vw;
+    overflow: hidden;
+}
+#products{
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.items{
+  padding-left: 4%;
+  font-size: large;
+ color:rgb(237, 245, 250);
+}
+#line{
+    height: 1px;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+#icons{
+    position: relative;
+    top:50px;
+    left: 33vw;
+    height: 200px;
+}
+#line2{
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:rgb(169, 211, 240);
+}
+#privacy{
+    padding-left: 5%;
+}
+#copyright{
+    color:rgb(169, 211, 240);
+    text-align: center;
+}
